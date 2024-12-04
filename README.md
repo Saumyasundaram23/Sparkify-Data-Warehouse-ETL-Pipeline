@@ -56,7 +56,9 @@ Prerequisites:
 
 Install Apache Airflow: pip install apache-airflow.
 
-Start the Airflow webserver: 'airflow webserver -p 8080'
+Start the Airflow webserver:
+''' airflow webserver -p 8080 '''
+
 Configuration:
 
 Add AWS credentials in the Airflow UI under Admin > Connections.
