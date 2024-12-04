@@ -55,9 +55,9 @@ Setup and Dependencies
 Prerequisites:
 
 Install Apache Airflow: pip install apache-airflow.
-
+```pip install airflow```
 Start the Airflow webserver:
-''' airflow webserver -p 8080 '''
+```airflow webserver -p 8080```
 
 Configuration:
 
