@@ -1,8 +1,7 @@
-
-**Project Summary: Sparkify Data Warehouse ETL Pipeline**
+# Project Summary: Sparkify Data Warehouse ETL Pipeline
 This project provides an ETL pipeline designed to load and transform Sparkify's music streaming data into an AWS Redshift Data Warehouse. The primary goal is to enable Sparkify to answer critical business questions, such as identifying popular songs, understanding user behavior, and optimizing their service offerings. The pipeline runs on an hourly basis, orchestrated and managed using Apache Airflow, which ensures maintainable, testable, and collaborative workflows.
 
-Project Overview
+**Project Overview**
 Purpose:
 
 The database consolidates Sparkify's song and log data, enabling analytics and reporting.
@@ -18,7 +17,7 @@ Python: Used for the ETL logic, leveraging libraries for data manipulation.
 Database Design
 The pipeline uses a Star Schema, which simplifies data queries and improves aggregation performance. The schema consists of:
 
-Fact Table:
+**Fact Table:**
 songplays: Stores records of song plays (log data).
 Dimension Tables:
 users: User information.
